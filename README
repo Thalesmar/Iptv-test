@@ -1,0 +1,6 @@
+⚠️ Disclaimer
+This project is intended for educational purposes only.
+Please do not use this code for commercial or illegal activities.
+The author is not responsible for any misuse or harm caused by the use of this code.
+
+Thank you for your understanding!
