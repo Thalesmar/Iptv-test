@@ -3,12 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPTV Streaming Platform</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Best IPTV UK Service Provider | XtremeHD IPTV</title>
+    <meta name="description" content="Premium UK IPTV service with 24,000+ channels, HD quality, and instant activation. Get access to sports, movies, and entertainment channels. Best IPTV provider in UK.">
+    <meta name="keywords" content="IPTV UK, streaming service, HD channels, live TV, PPV events, sports channels, movies, entertainment">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com/">
+    <meta property="og:title" content="Premium IPTV UK Service | XtremeHD IPTV">
+    <meta property="og:description" content="Access 24,000+ live channels and 150,000+ movies. Premium UK IPTV service with HD quality and instant activation.">
+    <meta property="og:image" content="https://your-domain.com/path-to-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-domain.com/">
+    <meta property="twitter:title" content="Premium IPTV UK Service">
+    <meta property="twitter:description" content="Access 24,000+ live channels and 150,000+ movies. Premium UK IPTV service with HD quality and instant activation.">
+    <meta property="twitter:image" content="https://your-domain.com/path-to-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-domain.com/">
+
+    <!-- Existing CSS and font links -->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "XtremeHD IPTV UK Service",
+      "description": "Premium IPTV service with 24,000+ live channels and 150,000+ movies & shows",
+      "brand": {
+        "@type": "Brand",
+        "name": "XtremeHD IPTV"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "GBP",
+        "lowPrice": "14.99",
+        "highPrice": "49.99",
+        "offerCount": "4"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "1250"
+      }
+    }
+    </script>
 </head>
 <body>
     <header class="site-header">
@@ -16,11 +65,14 @@
             <div class="logo">
                 <img src="img/logo.jpg" alt="IPTV Logo">
             </div>
+            <button class="mobile-nav-toggle">
+                <span class="hamburger"></span>
+            </button>
             <nav class="navbar">
-                <ul>
+                <ul class="nav-links">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">contact</a></li>
-                    <li><a href="#">blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </nav>
         </div>
@@ -209,7 +261,7 @@
                 </div>
                 <div class="price">
                     <span class="currency-1">£</span>
-                    <span class="amount">49.99</span>
+                    <span class="amount-1">49.99</span>
                     <span class="original">£69.99</span>
                 </div>
                 <div class="special-offer">
@@ -238,44 +290,6 @@
 
     <h2 class="heading-h2">Exclusive Service for Those Who Value Difference.</h2>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-<script>
-        let lastScroll = 0;
-        const header = document.querySelector('.site-header');
-        const scrollThreshold = 50; // Minimum scroll amount before hiding
-
-        window.addEventListener('scroll', () => {
-            const currentScroll = window.pageYOffset;
-            
-            if (currentScroll <= 0) {
-                header.classList.remove('header-hidden');
-                return;
-            }
-            
-            if (currentScroll > lastScroll && currentScroll > scrollThreshold) {
-                // Scrolling down & past threshold
-                header.classList.add('header-hidden');
-            } else {
-                // Scrolling up
-                header.classList.remove('header-hidden');
-            }
-            
-            lastScroll = currentScroll;
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
